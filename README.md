@@ -1,5 +1,6 @@
 WRITTEN BY:  James Barnett 2012
 jbarnett@barnettech.com
+http://www.barnettech.com
 
 SCRIPTS PURPOSE:
 A simple php script illustrating how to connect
