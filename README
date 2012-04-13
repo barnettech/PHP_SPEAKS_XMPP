@@ -15,3 +15,6 @@ communicate with xmpp servers
   -- right now it sends a test message as well.
   -- modify the code to fit your needs
 
+USAGE:
+  -- after changing the jid, password, and username, etc as described
+     above just run this script from the command line ie:  > php bosh.php
