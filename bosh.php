@@ -75,12 +75,12 @@ function jabber_get_rid_sid() {
   global $_jabber_sid_;
 
   $xmlposts = array();
-  $xmlposts[] = "<body rid='$_jabber_rid_' xmlns='http://jabber.org/protocol/httpbind' to='babson.edu' xml:lang='en' wait='60' hold='1' window='5' content='text/xml; charset=utf-8' ver='1.6' xmpp:version='1.0' xmlns:xmpp='urn:xmpp:xbosh'/>";
+  $xmlposts[] = "<body rid='$_jabber_rid_' xmlns='http://jabber.org/protocol/httpbind' to='gmail.com' xml:lang='en' wait='60' hold='1' window='5' content='text/xml; charset=utf-8' ver='1.6' xmpp:version='1.0' xmlns:xmpp='urn:xmpp:xbosh'/>";
   $xml_response = jabber_send_xml($xmlposts);
   $_jabber_sid_ = $xml_response[0]['sid'];
 
   $xmlposts = array();
-  $jid = 'youremail.gmail.com';
+  $jid = 'youremail@gmail.com';
   $username = 'youremail';
   $domain = 'gmail.com';
   $password = 'password';
